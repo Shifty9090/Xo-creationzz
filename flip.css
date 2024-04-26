@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: plum;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: pink;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: pink;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    padding: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: pink;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  
+  
+  
